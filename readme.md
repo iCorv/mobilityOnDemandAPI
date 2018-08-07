@@ -26,14 +26,14 @@
     -   demand will vary a lot during the day -> load balancing
     -   when not used, cars are turned off, but some functionality must persist -> battery/energy management is crucial
     
-![alt text](https://github.com/iCorv/MobilityOnDemand/blob/master/mod_database_schema.png "Logo Title Text 1")
+![alt text](https://github.com/iCorv/mobilityOnDemandAPI/blob/master/documentation/mod_database_schema.png "Logo Title Text 1")
 
 ## Task 1
 Splitting the car entity into three entities allows to individually change the status and current position of the car, 
 while other car features remain quite permanent. This might be convenient since the position of the car could be 
 updated very often. The virtual car, which will be added to the demand as soon as it meets the requirements, 
 will hold the actual pick up and drop off time.
-![alt text](https://github.com/iCorv/MobilityOnDemand/blob/master/mod_database_schema.png "Logo Title Text 1")
+![alt text](https://github.com/iCorv/mobilityOnDemandAPI/blob/master/documentation/er-db-diagram.png "Logo Title Text 1")
 
 The script used to initialize the PostgreSQL db:
 
